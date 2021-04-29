@@ -1,0 +1,49 @@
+				 	Name 								Tashfeen Latif
+				 	Roll NO 							17P-6035
+				 	Sec 								(CS-A)
+					Course								Operating System
+					Prof 								Dr Muhammad Nauman 	
+				 					Assignment # 5
+
+1. Security and Protection: Intro, Goals, Formalism
+
+Intro:-
+In Security we want to prevention of unauthorized access to a system and prevention of malacious or accidental access to a system.
+And In Protection we have a mechanism that enforce policey i.e how we do these things that we are talk about in security.
+Mainly we focus on the three things i.e
+1) Network Security
+2) Malvare /Virus
+3) Authorization
+
+Goals:-
+	In this We have certain goals in secrity and protection that we want to fulfill
+	Authentication:-
+					In these we restrict the user to tells his identity and then further proceed.
+	Confidentially:-
+					In this data is only access by those who has needed this.And we want to prevent unauthorized access to data
+	Integrity:-
+					In this there is no modification in data untill the permission granted.
+	Availabilty:-
+					The whom data is needed then data is available for those that is availability of data.
+
+In OS subjects are identified through Authentication and Objects are actions in OS , and Policy tells us about that who have what right on what object. To make the policy we create a structure to allow access on specific objects. Subjects interacts with objects(hadware , software). When a subject / program wants access to rights , then we put it in a Domain which contains the list of rights is called Protection Doamin. In protection domain a subject can perform a task and access to right from the list of rights which are allowed to access to Protection Domain.
+
+
+
+2. Access Control Matrix/Lists, Password Management, Hashes and Salts
+
+Access Control Matrix/Lists:-
+
+The Access Control Matrix:
+					An access control matrix is a table that states a subject's access rights on an object. A subject's access rights can be of the type read, write, and execute 
+Access Control lists:
+					Each column of the access control matrix is called an Access Control List (ACL) while each row is called a capability list.
+
+
+.
+Password Management:-
+		First of all establish and verify identity and then decide wheter to allow are not .And then for reusability server already keeps a data in datbase .Then Next time server authenticate using the lookup in database file.
+Hashes:-
+		Password in simply saved in datbase is not secure .So we jut use hash table in which we provide hash function and then instead of saving password in database we save hash values that is then secure passwords for us . For this we use some difficult hash function like SHA-256 ,SHA_512 etc.
+Salts:-
+		This is also best method for securing passwords.Instead of use direct hash values store in databases we also add some random numbers that is well known. Although, hackers is so smart that they already make tables for hash values but they dont no about number at that time in this list. So they dont hack any password beacuse of this random numbers addition.

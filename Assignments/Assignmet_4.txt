@@ -1,0 +1,55 @@
+				 	Name 								Tashfeen Latif
+				 	Roll NO 							17P-6035
+				 	Sec 								(CS-A)
+					Course								Operating System
+					Prof 								Dr Muhammad Nauman 	
+				 					Assignment # 4
+												
+
+Paging:-
+
+/* This Paragraph is just for understanding the concept not the part of assignment paragraph */
+
+Paging is a memory management scheme that eliminates the need for contiguous allocation of physical memory.This scheme 
+permits the physical address space of a process to be non–contiguous . The mapping from virtual to physical address is
+done by the memory management unit (MMU) which is a hardware device and this mapping is known as paging technique.The
+Physical Address Space is conceptually divided into a number of fixed-size blocks, called frames.The Logical address
+Space is also splitted into fixed-size blocks, called pages and Page Size = Frame Size
+
+1)
+Benefits of Paging: Protection, Sharing, Swap Spaces; Cache Coherence:-
+
+There are lots of benefits of paging and we disccuss some benefits of paging that is following
+The first benefit is 
+Protection:-
+		With the help of paging  actually we do something that is protect us from viruses. Now how we can do this?.The answer is that we can restrict some pages to write only that is maybe stack portion.Due to this if any virus can attack to us they just write something that is harmful for us but they dont execute this process.And if they trying to execute this CPU produce/made a trap that is illegal memory access.That's how paging is good for protection 
+		and The Second benefit is
+Sharing:- 
+		Virtual memory makes memory sharing easy.Sharing made is by page granularity.They do anything they thing they can do in 
+		ther own but actually they do in the frames.Because of sharing same load between the processes and use same frames. So 
+		all the things that is write and read are common between the processes because of sharing.
+
+
+And The Third Benefit is 
+Swap Spaces:- 
+		Swap spaces in paging is a space on a hard disk used as the virtual memory.Having a swap spaces allows our computer's operating system to pretend that you have more RAM than we actually have.This thing can provide infinite amount of memory to any program that is good 
+		and The Fourth Benfit is
+Cache Coherence:-
+		With the help of paging if CPU can predict the next value and loading the expected data from RAM to cache .But actually that prediction made by CPU & OS .So that process is very fast and helpul. 
+
+
+
+
+2. File Systems, Virtual Filesystems, Benefits and Importance:-
+
+File Systems:
+			File system is a persistent storage and oraganization of data and meta data.Filesystem usally interact with block 
+			devices . They are addresable and randomly accesible . File type refers to the ability of the operating system to differentiate different types of files like text files, binary, and source files 
+
+
+Virtual File Sytems:
+			Virtual file systems is that in which you have not only like write in to the block system and they can even write on the internet that is completely another system.
+
+
+Benefits and Importance:-
+			You can have storage of type which is not physically present not even peristent storage and that even we can thought of that files.Its provide VFS singular interface to the application.For this we can done operations and that is actually  how this operation performs on the physical devices.Beacuse of VTS we can create module those  we can load into runtime.
